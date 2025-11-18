@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-README
+# ev-sentiment-analyzer01
 
 **Problem statement:** In the rapidly evolving electric vehicle (EV) industry, designers struggle to translate unstructured customer feedback from thousands of reviews into actionable design changes. Raw text opinions (e.g., "the front looks too boxy") are difficult to quantify and visualize, creating a gap between public sentiment and new concept designs.
 
@@ -44,6 +43,5 @@ The goal is to combine AI-powered language understanding with generative AI to c
 | **Web App / UI** | `streamlit` |
 | **Environment** | `VS Code` |
 | **Version Control** | `Git + GitHub` |
-=======
-# ev-sentiment-analyzer01
->>>>>>> 
+
+
