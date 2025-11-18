@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Sentiment Analyzer</title>
+    
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333; }
+        header { text-align: center; padding: 20px; background-color: #1e3a8a; color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        main { max-width: 1000px; margin: 30px auto; padding: 20px; background-color: white; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
+        h1 { color: white; margin: 0; font-size: 2.5em; }
+        h2 { color: #f63366; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 30px; }
+        
+        /* Styling for the dedicated link button */
+        .streamlit-link-section {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #e0f2f1;
+            border-radius: 8px;
+        }
+        .streamlit-button {
+            display: inline-block;
+            padding: 15px 35px;
+            background-color: #f63366;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.3em;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .streamlit-button:hover {
+            background-color: #cc2b54;
+            transform: translateY(-2px);
+        }
+
+        /* Styling for the Image Section */
+        #image-preview {
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        /* 🎨 Sizing for the Image */
+        .preview-image {
+            /* Max width is set to 90% of the container for responsiveness */
+            max-width: 90%; 
+            height: auto; 
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EV Sentiment Analyzer Project</h1>
+    </header>
+
+    <main>
+        <section class="streamlit-link-section">
+            <h2>Launch The Interactive Application 🚀</h2>
+            <p>
+                This sentiment analyzer is a dynamic application built with Python and Streamlit to analyze public opinion on Electric Vehicles. Click below to use the live tool!
+            </p>
+            
+            <a 
+                href="https://yashkhalate-18-ev-sentiment-analyzer01-app-z3smzk.streamlit.app/" 
+                target="_blank" 
+                class="streamlit-button"
+            >
+                Launch EV Sentiment Analyzer
+            </a>
+        </section>
+        
+        <hr>
+
+        <section id="image-preview">
+            <h2>Sentiment Meter Preview 📊</h2>
+            <p>This image shows the core **Sentiment Gauge** used in the application, classifying text input from BAD (5) to GOOD (1).</p>
+            
+            <img 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiUIUZ6TMdSYsjHiAKYFd_25oUCRrTlQrJcA&s" 
+                alt="Sentiment Gauge Meter Screenshot"
+                class="preview-image"
+            >
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Yash Khalate. Project Hosted on GitHub Pages | App Powered by Streamlit.</p>
+    </footer>
+</body>
+</html>
